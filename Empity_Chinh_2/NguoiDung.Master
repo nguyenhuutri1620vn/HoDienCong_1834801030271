@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="NguoiDung.master.cs" Inherits="Empity_Chinh_2.NguoiDung" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <meta name="keywords" content="HTML,CSS,XML,JavaScript,PHP,ASP.NET,C#,TOEIC,TOEFL iBT">
+    <title></title>
+    
+</head>
+<body>
+    <div runat="server" class="dropMenu">
+
+            <img class="logo" src="../Image/logogym.png" height="50px" width="70px" />
+        <ul class="menu">
+        	<li runat="server"><a >Trang Chu</a></li>
+            <li runat="server"><a>Bao Cao</a></li>
+            <li runat="server"><a>Doanh Thu</a></li>
+            <li runat="server"><a>Kiem Tra Thiet Bi</a></li>
+            <li runat="server"><a>Kiem Tra Mon An</a></li>
+            <li runat="server"><a>Dich Vu</a></li>
+            <li runat="server"><a>Cai Dat</a></li>
+            <li runat="server"><a>Phan Khuc Khach Hang</a></li>
+        </ul>
+        <div class="dangNhap"></div>
+  
+        </div>
+    <form id="form1" runat="server">
+        
+        <asp:ContentPlaceHolder ID="head" runat="server">
+       
+    </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

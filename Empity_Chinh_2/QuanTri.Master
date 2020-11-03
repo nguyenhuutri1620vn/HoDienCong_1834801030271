@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="QuanTri.master.cs" Inherits="Empity_Chinh_2.QuanTri" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+    <link href="JS/CSS/css_header_QuanTri.css" rel="stylesheet" />
+    <style type="text/css">
+        .btnDangXuatbtn {
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>  
+   <form class="form1" runat="server"> 
+        <header class="dropMenu">
+            <img class="logo" src="Image/logogym.png" height="50px" width="70px" />
+            <ul class="menu">
+        	    <li runat="server"><a href="HoiVienAdmin.aspx" >hội Viên</a></li>
+                
+                <li runat="server"><a href="QuanTriNhanVien.aspx">Nhân Viên</a></li>
+                <li runat="server"><a href="ThietBiAdmin.aspx">Thiết Bị</a></li>
+                <li runat="server" ><a href="DoanhThuAdmin.aspx">DoanhThu</a></li>
+                <li runat="server"><a href="DoAnNuocUongAdmin.aspx">Đồ ăn nước ống</a></li>              
+            </ul>            
+             <div class="btnDangXuat"> <asp:Button CssClass="btnDangXuatbtn" ID="btnDangXuat" runat="server" Text="Dang Xuat" Height="49px" Width="109px" OnClick="btnDangXuat_Click"  /></div>
+            <img class="imgDangNhap" src="Image/DangNhap.png" />
+    </header> 
+       <div class="choi">
+      
+                <asp:ContentPlaceHolder ID="head" runat="server">                  
+                </asp:ContentPlaceHolder>
+         </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">                  
+                </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

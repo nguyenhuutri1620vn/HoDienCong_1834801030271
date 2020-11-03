@@ -1,0 +1,110 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="NguoiDung.master.cs" Inherits="Phong_Gym.NguoiDung" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    
+     
+   
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+   <header>
+        <div id="menu" >
+            <img src="image/logoHeader.png" class="logo"/>
+    <ul>
+    <li><a href="trangchu3.html">Trang chủ</a></li>
+    <li><a href="trangchu3_cafe_truyen_thong.html">Caffee Truyền Thống &darr;</a>
+    	<ul class="sub-menu">
+        	<li><a href="Chi_tiet_san_pham_cafe_sua.html">Caffe Sữa</a></li>
+            <li><a href="#">Caffe Đen</a></li>
+            <li><a href="#">Caffe Phin</a></li>
+            <li><a href="Chi_tiet_san_pham - Cam.html">Caffe Cam</a></li>
+            <li><a href="#">Caffe Latte</a></li>
+            <li><a href="#">Caffe Hương đồng</a></li>
+            <li><a href="#">Caffe Viennese</a></li>
+            <li><a href="#">Caffe Máy</a></li>
+        </ul>
+    </li>
+    <li><a href="trangchu3_cafe_dac_biet.html">Caffee Đặc Biệt &darr;</a>
+      <ul class="sub-menu" >
+        <li><a href="#">Caffe Robusta</a></li>
+        <li><a href="#">Caffe Starbucks</a></li>
+        <li><a href="Chi_tiet_san_pham - Pubding.html">Caffe Pudding</a></li>      
+        <li><a href="Chi_tiet_san_pham - Cherry.html">Caffe Cherry</a></li>
+        <li><a href="#">Caffe Espresso</a></li>
+        <li><a href="#">Caffe Latte</a></li>
+        <li><a href="#">Caffe Moka</a></li>
+      </ul>
+    </li>    
+    
+    <li><a href="g">Giới Thiệu & Liên Hệ &darr;</a>
+    	<ul class="sub-menu">
+            <li><a href="gioithieu.html">Giới Thiệu</a></li>
+            <li><a href="lien_he.html">Liên Hệ</a></li>
+         </ul>
+      
+     </li>
+  
+  </ul>
+       
+     <div class="nl">
+         <img src="image/dangnhap.jpg" class="imDangNhap" width="50" height="20"/>
+         <a data-toggle="modal" data-target="#cong" class="dnp"><u>Đăng nhập</u> </a>    
+      </div>
+
+</div>
+</header>
+        <!--phan than-->
+<div class="than">
+    <asp:ContentPlaceHolder ID="head" runat="server">           
+    </asp:ContentPlaceHolder>
+</div>
+        <!--chan day trang web-->
+<link href="style/css_chan.css" rel="stylesheet" />
+	<div class="container"> 
+        <div class="row">          
+          <div class="hh">
+                <div class="logo_chuyen" >
+                	<a href="#" class="fb" target="_blank"><img src="image/logo_day/lg_face.png" width="65" height="56"/></a>
+                    <a href="#" class="yt" target="_blank"><img src="image/logo_day/lg_ytb1.png" width="82" height="56"/></a>
+                    <a href="#" class="in" target="_blank"><img src="image/logo_day/lg_gm3.png" width="60" height="56"/></a>
+                    <a href="#" class="in" target="_blank"><img src="image/logo_day/lg_itgr.png" width="75" height="66"/></a>
+                  </div>
+                
+            <div class="CS_TD">
+                     <a href="#">Chính sách bảo mật</a> |<a href="#">Tuyển dụng </a>                  
+                </div>
+                <div class="dgc"></div>
+              <br />
+            </div>
+		</div>
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-lg-3">				
+            </div>
+            <div class="DC1">
+                  <p class="nd"><span class="DC">CÔNG TY TNHH FIT24</span><br>
+                        Địa chỉ:  621 Hoàng Sa, Quận 3, TP.HCM<br>
+                        Điện thoại:  (028) 7303 2424   |    Email:  info@fit24.vn<br>
+                        MST: 0310916057 - Cấp ngày 11/06/2011<br>
+                        Nơi cấp: Sở Kế Hoạch Và  Đầu Tư Thành Phố Hồ Chí Minh<br />
+                        </p>            
+             </div>
+
+            <div class="dgc1"></div>
+        </div>
+        
+        <div class="bocongthuong">
+                <a href="" target="_blank"><img class="" src="http://fit24.vn/static/images/bo-cong-thuong.png" alt=""></a>
+            </div>
+        <img src="image/logo_day/qc6.png" class="lg_d" />
+        <div class="copyright row">
+           <p align="center">© 2018 - Bản quyền thuộc Fit24.vn</p> </div>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,52 @@
+﻿
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+section, aside {
+    display: table-cell;
+    vertical-align: top;
+    
+}
+.than_gt {
+    width:1300px;
+    margin: 0px auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+section
+{
+    
+    width:1000px;
+    padding:20px;
+    border:2px solid#000000;
+}
+aside{
+    margin-top:-880px;
+    float:right;
+    width:300px;
+    border:2px solid#b6ff00;
+}
+marquee{
+    float:right;
+}
+.Tieu_de{
+    text-align: center;
+}
+.mau_TC{
+    color:darkolivegreen;
+}
+.Chan_TD{
+    
+    text-align:center;
+    
+    border:2px solid#b6ff00;
+}
+.th_tin{
+    padding:10px;
+    
+}
+.anh_cachchu{
+    text-align:center;
+}
